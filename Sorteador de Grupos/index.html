@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title> Sorteador de Grupos </title>
+</head>
+<body>
+
+  <div id="popup">
+    <div id="popup-content">
+      <div class="pocText">
+        <h1 class="Cour"> Sorteador de Grupos </h1>
+        <h2 class="Cave"> Bem-vindo! </h2>
+        <button onclick="fecharPopup()">Entrar</button>
+      </div>
+      <div>
+        <img src="./Mídia/Img1.png" alt="[Espaço para Imagem]">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1 class="Cour"> Sorteador de Grupos </h1>
+    <textarea id="nomes" rows="6" placeholder="Digite os nomes separados por vírgula ou quebra de linha"></textarea>
+    <textarea id="lideres" rows="3" placeholder="Digite os líderes separados por vírgula ou quebra de linha"></textarea>
+    <button onclick="sortearGrupos()">Sortear</button>
+
+    <div class="resultado" id="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
